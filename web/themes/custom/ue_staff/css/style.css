@@ -1,0 +1,24 @@
+.views-view-grid .views-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.views-view-grid .views-col {
+  flex: 1;
+  min-width: 260px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-top: 4px solid #041e42;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+.views-view-grid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  margin-top: 1rem;
+  border: 2px solid #041e42;
+}

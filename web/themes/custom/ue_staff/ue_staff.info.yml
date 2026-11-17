@@ -1,0 +1,7 @@
+name: UE Staff Theme
+type: theme
+description: Custom theme for the University Staff Directory prototype.
+base theme: olivero
+core_version_requirement: ^10 || ^11
+libraries:
+  - ue_staff/global-styling
